@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
-    <title>Magnétiseur à Marseille</title>
+    <%# <base href="https://www.netenvie.com/"> %>
+    <meta name="rights" content="Webdesign by Christophe JULLIEN magnetiseur">
+    <meta name="lang" content="fr-FR">
+    <meta name="robots" content="index, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta name="description" content="Thérapeute magnétiseur et énergéticien à Marseille,
                              à Paris, à Lyon, à Bordeaux, à distance dans toute la France et dans le monde entier">
     <meta name="author" content="Jullien Christophe, magnétiseur à Marseille">
-    <meta name="robots" content="index, follow">
+    <meta property="og:description" content="Magnétiseur et énergéticien, à Marseille, dans toute la France et le monde entier.">
+    <meta property="og:title" content="Magnétiseur à Marseille">
+
+    <title>
+      Magnétiseur à Marseille
+    </title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
@@ -17,9 +26,9 @@
   <body>
     <%= yield %>
 
-<div class="footer">
-Test
-</div>
+  <div class="footer">
+    Test
+  </div>
     <script src="main.js"></script>
   </body>
 </html>
