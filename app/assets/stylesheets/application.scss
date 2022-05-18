@@ -85,7 +85,16 @@ body {
   background-image: url("ciel-escalier.png");
   background-position: center top;
   background-size: cover;
-  //<h1>Entrez dans votre espace intérieur</h1>
+}
+.entrer {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 25vh;
+  }
+
+.li {
+  display: flex;
+  justify-content: center;
 }
 
 .navTrigger {
@@ -388,3 +397,4 @@ body {
     padding: 2%;
   }
 }
+///////
