@@ -7,5 +7,6 @@ Rails.application.routes.draw do
   get 'mentions-légales', to: 'pages#mentionslegales'
   get 'nettoyage-des-lieux', to: 'pages#nettoyagelieux'
   get 'soins-magnétisme-marseille', to: 'pages#soins'
-  get 'vos-questions', to: 'page#vosquestions'
+  get 'vos-questions', to: 'pages#vosquestions'
+  get 'magnétiseur-marseille', to: 'pages#whoiam'
 end

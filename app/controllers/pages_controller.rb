@@ -14,4 +14,6 @@ class PagesController < ApplicationController
   def soins; end
 
   def vosquestions; end
+
+  def whoiam; end
 end
