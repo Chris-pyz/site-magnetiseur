@@ -1,4 +1,6 @@
 class PagesController < ApplicationController
+  def whoiam; end
+
   def accueil; end
 
   def cgv; end
@@ -14,6 +16,4 @@ class PagesController < ApplicationController
   def soins; end
 
   def vosquestions; end
-
-  def whoiam; end
 end
