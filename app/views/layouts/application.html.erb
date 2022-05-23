@@ -22,7 +22,7 @@
     <meta name="google" content="nositelinkssearchbox">
     <meta name="referrer" content="unsafe-url">
     <meta property="og:type" content="soin magnétiseur énergéticien marseille">
-    <meta name="keywords" content="magnétiseur marseille, soin marseille, soin énergétique, soin énergétique marseille, soin magnétiseur marseille">
+    <meta name="keywords" content="magnétiseur marseille, soin marseille, soin magnétiseur, soin énergétique, soin énergétique marseille, soin magnétiseur marseille, osthéopathe, osthéopathe marseille">
     <title>
       Magnétiseur à Marseille
     </title>
@@ -33,11 +33,47 @@
   </head>
 
   <body>
-    <%= yield %>
+
+<nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="#">Christophe magnétiseur</a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Prestations</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+</nav>
+ <%= yield %>
 
   <div class="footer">
-    Test
+    <h5>Mention Légale | CGV | Cookies | Contact </h5>
   </div>
-    <script src="main.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+
+
+    <%# <script src="js/scripts.js"></script> %>
+    <%# <script src="main.js"></script> %>
+
   </body>
 </html>

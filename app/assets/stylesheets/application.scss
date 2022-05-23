@@ -1,6 +1,7 @@
 // ici, c'est le css pour la page d'accueil; faire des @import pour les autres pages
 @import "entrer";
 @import "whoiam";
+@import "cookies";
 
 ///////////////////////////////////////////
 
@@ -35,7 +36,7 @@ body {
 
 .nav div.logo a {
   text-decoration: none;
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-size: 2.5rem;
   font-weight: bold;
 }
@@ -67,7 +68,7 @@ body {
 
 .nav div.main_list ul li a {
   text-decoration: none;
-  color: #fff;
+  color: rgb(255, 255, 255);
   line-height: 65px;
   font-size: 2.4rem;
   font-weight: bold;
@@ -81,12 +82,14 @@ body {
 /* Home section */
 
 .home {
-  width: 100%;
-  height: 80vh;
-  background-image: url("ciel-escalier.png");
+  //width: 100%;
+ // height: 80vh;
+  background-image: url("ciel-escalier3.png");
   background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
+  padding-bottom: 80px;
+
   //object-fit: cover;
   //overflow: hidden;
 }
@@ -115,6 +118,7 @@ body {
   padding-bottom: 20px;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
+  padding-top: 10px;
 }
 
 /* Media query section */
@@ -147,20 +151,21 @@ body {
 
   .nav div.main_list ul {
     flex-direction: column;
-    width: 40%;
+    width: 45%;
     height: 100vh;
     right: 0;
     left: 0;
     bottom: 0;
-    background-color:#000000e8;
+    background-color:#6586cade;
 
     /*same background color of navbar*/
     background-position: center top;
+    border-radius: 0px 10px 0 0px;
   }
 
   .nav div.main_list ul li {
     width: 100%;
-    text-align: right;
+    text-align: initial;
   }
 
   .nav div.main_list ul li a {
@@ -187,7 +192,7 @@ body {
 }
 
 .navTrigger i {
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   border-radius: 2px;
   content: '';
   display: block;
@@ -386,7 +391,7 @@ body {
 
 .affix {
   padding: 0;
-  background-color: #468bf7db;
+  background-color: #6586ca;
 }
 
 .myH2 {
@@ -407,3 +412,6 @@ body {
   }
 }
 ///////
+.footer {
+  text-align: center;
+}

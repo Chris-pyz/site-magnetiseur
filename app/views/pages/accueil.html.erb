@@ -1,4 +1,4 @@
-<nav class="nav">
+<%# <nav class="nav">
         <div class="container">
             <div class="logo">
                 <a href="#">Christophe magnétiseur</a>
@@ -18,10 +18,10 @@
                 <i></i>
             </span>
         </div>
-    </nav>
-
+</nav>
+ %>
     <section class="home">
-    <%# <img src="/assets/ciel-escalier" alt=""> %>
+    <%# <img id="HMT" src="/assets/lumiere-homme-test.gif" alt=""> %>
     <%# <video src="/assets/bouddha.mp4" controls autoplay loop></video> %>
       <div class=entrer>
         <h1>Entrez dans votre Lumière Intérieure Sacrée</h1>
@@ -54,11 +54,11 @@
 			  </p>
     </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="js/scripts.js"></script>
+<%#     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script> %>
 
-<!-- Fonction utilisée pour réduire la barre de navigation, suppr le padding et ajouter un fond noir-->
-    <script>
+<!-- Fonction utilisée pour réduire la barre de navigation, suppr le padding et ajouter un fond (noir)-->
+<%#     <script>
         $(window).scroll(function() {
             if ($(document).scrollTop() > 50) {
                 $('.nav').addClass('affix');
@@ -67,4 +67,4 @@
                 $('.nav').removeClass('affix');
             }
         });
-    </script>
+    </script> %>
