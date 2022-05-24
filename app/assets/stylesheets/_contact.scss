@@ -1,6 +1,7 @@
 .whoiam {
     display: flex;
     align-items: stretch;
+    text-align: justify;
 }
 
 .gauche {
@@ -8,5 +9,35 @@
       text-align: center;
        a {
         text-decoration: none;
+        padding-left: 4px;
       }
     }
+
+.gauche a:hover {
+      color: #cc00f9;
+}
+
+.droite p {
+  margin-right: -35px;
+  margin-left: -10px;
+}
+
+@media (max-width: 700px) {
+  .photomoi, .photomoi img {
+    width: 30vh;
+  }
+  .whoiam p {
+    font-size: 12px;
+  }
+  .titrew h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .gauche a {
+    font-size: 22px;
+  }
+/*   .droite {
+    margin-right: -40px;
+    margin-left: -15px;
+} */
+}
