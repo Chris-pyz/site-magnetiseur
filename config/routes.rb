@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   get 'contact-magnetiseur', to: 'pages#contact'
   get 'cookies', to: 'pages#cookies'
   get 'mentions-legales', to: 'pages#mentionslegales'
-  get 'nettoyage-des-lieux', to: 'pages#nettoyagelieux'
+  get 'temoignage', to: 'pages#temoignage'
   get 'soins-magnetiseur-marseille', to: 'pages#soins'
   get 'vos-questions', to: 'pages#vosquestions'
   get 'magnetiseur-marseille', to: 'pages#whoiam'

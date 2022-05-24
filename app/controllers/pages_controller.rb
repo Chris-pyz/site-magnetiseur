@@ -11,7 +11,7 @@ class PagesController < ApplicationController
 
   def mentionslegales; end
 
-  def nettoyagelieux; end
+  def temoignage; end
 
   def soins; end
 
