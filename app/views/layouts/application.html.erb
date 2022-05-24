@@ -37,13 +37,13 @@
 <nav class="nav">
         <div class="container">
             <div class="logo">
-                <a href="#">Christophe magnétiseur</a>
+                <%= link_to 'Christophe magnétiseur', magnetiseur_marseille_path %>
             </div>
             <div id="mainListDiv" class="main_list">
                 <ul class="navlinks">
-                    <li><a href="#">Accueil</a></li>
-                    <li><a href="#">Prestations</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><%= link_to 'Accueil', root_path %></li>
+                    <li><%= link_to 'Prestations', soins_magnetiseur_marseille_path %></li>
+                    <li><%= link_to 'Contact', contact_magnetiseur_path %></li>
                 </ul>
             </div>
             <span class="navTrigger">
@@ -56,7 +56,7 @@
  <%= yield %>
 
   <div class="footer">
-    <h5>Mention Légale | CGV | Cookies | Contact </h5>
+    <h5><%= link_to 'Mention Légale', mentions_legales_path %> | <%= link_to 'CGV', cgv_path %> | <%= link_to 'Cookies', cookies_path %> | <%= link_to 'Contact', contact_magnetiseur_path %> </h5>
   </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
