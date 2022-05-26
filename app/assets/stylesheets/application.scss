@@ -3,6 +3,7 @@
 @import "whoiam";
 @import "allpages";
 @import "contact";
+@import "prestations";
 
 ///////////////////////////////////////////
 
@@ -416,4 +417,7 @@ body {
 ///////
 .footer {
   text-align: center;
+  a:hover {
+    color: #cc00f9;
+  }
 }
