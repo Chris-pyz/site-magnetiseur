@@ -3,7 +3,7 @@
 @import "whoiam";
 @import "allpages";
 @import "contact";
-@import "prestations";
+@import "soins";
 
 ///////////////////////////////////////////
 
@@ -38,13 +38,15 @@ body {
 
 .nav div.logo a {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: #ae00fd;
   font-size: 2.5rem;
   font-weight: bold;
+  font-size: 45px;
 }
 
 .nav div.logo a:hover {
-  color: #02ffdb;
+  color: #0288ff;
+  filter: drop-shadow(8px 5px 4px #4444dd)
 }
 
 .nav div.main_list {
@@ -70,14 +72,15 @@ body {
 
 .nav div.main_list ul li a {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: #ae00fd;
   line-height: 65px;
   font-size: 2.4rem;
   font-weight: bold;
 }
 
 .nav div.main_list ul li a:hover {
-  color: #02ffdb;
+  color: #0288ff;
+  filter: drop-shadow(8px 5px 4px #4444dd)
 }
 
 
@@ -85,13 +88,12 @@ body {
 
 .home {
   //width: 100%;
- // height: 80vh;
-  background-image: url("ciel-escalier3.png");
+  //height: 80vh;
+  background-image: url("lotus2");
   background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 80px;
-
   //object-fit: cover;
   //overflow: hidden;
 }
@@ -118,8 +120,8 @@ body {
 .nav {
   padding-top: 20px;
   padding-bottom: 20px;
-  -webkit-transition: all 0.4s ease;
-  transition: all 0.4s ease;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
   padding-top: 10px;
 }
 
@@ -158,7 +160,7 @@ body {
     right: 0;
     left: 0;
     bottom: 0;
-    background-color:#6586cade;
+    background-color:#ffffffcf;
 
     /*same background color of navbar*/
     background-position: center top;
@@ -194,11 +196,11 @@ body {
 }
 
 .navTrigger i {
-  background-color: rgb(255, 255, 255);
+  background-color: #ae00fd;
   border-radius: 2px;
   content: '';
   display: block;
-  width: 100%;
+  width: 145%;
   height: 4px;
 }
 
@@ -393,7 +395,11 @@ body {
 
 .affix {
   padding: 0;
-  background-color: #6586ca;
+  //background-color: #6586ca;
+  //background-image: url("banner-water");
+  background-position: bottom;
+  box-shadow: 1px 1px 50px rgba(172, 2, 249, 0.56);
+  border-radius: 0 0 10px 10px;
 }
 
 .myH2 {

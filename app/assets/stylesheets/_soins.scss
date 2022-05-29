@@ -1,0 +1,44 @@
+.soinpresta {
+  margin: 0 auto;
+  width: 1000px;
+  //box-shadow: 0 10px 30px rgba(0, 0, 0, .3);
+/*   display: flex;
+  flex-direction: column;
+  margin-left: 30vh;
+  margin-right: 30vh;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch; */
+}
+
+
+
+.imgtxt {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.soincard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: stretch;
+  align-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 16px;
+
+}
+
+.soincard:hover {
+  box-shadow: 0 10px 30px;
+  border-radius: 15px;
+  transform: translate(7px, -2px);
+
+}
+
+#imgcab, #imgdist, #imglieu, #imggs {
+  width: 50vh;
+  border-radius: 15px 0px 0px 15px;
+}
