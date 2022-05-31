@@ -10,6 +10,9 @@
   justify-content: flex-start;
   align-items: stretch;
   align-content: stretch; */
+  p {
+    font-family: 'Merienda', cursive;
+  }
 }
 
 
@@ -28,13 +31,13 @@
   align-content: space-around;
   margin-top: 50px;
   margin-bottom: 16px;
-
+  transition: 0.3s;
 }
 
 .soincard:hover {
   box-shadow: 0 10px 30px;
   border-radius: 15px;
-  transform: translate(7px, -2px);
+  transform: translate(15px);
 
 }
 

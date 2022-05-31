@@ -1,0 +1,23 @@
+.vosquestions {
+  padding-left: 20px;
+  padding-right: 20px;
+  h2 {
+    font-size: 30px;
+  }
+}
+
+.cache {
+  padding-bottom: 5px;
+  transition: 0.3s;
+}
+
+.cache:hover {
+  box-shadow: 0 10px 30px rgba($color: #fa01e193, $alpha: 0.3);
+  border-radius: 15px;
+}
+p {
+  font-size: 20px;
+  font-family: 'Merienda', cursive;
+  padding-left: 20px;
+  padding-right: 20px;
+}
