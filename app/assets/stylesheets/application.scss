@@ -5,6 +5,7 @@
 @import "contact";
 @import "soins";
 @import "vosquestions";
+@import "cookies";
 ///////////////////////////////////////////
 
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
@@ -423,7 +424,7 @@ body {
 @media all and (max-width:700px) {
   .myP {
     padding: 2%;
-    font-size: 12px;
+    font-size: 20px;
 
   }
 }
