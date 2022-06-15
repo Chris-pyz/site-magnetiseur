@@ -16,4 +16,6 @@ class PagesController < ApplicationController
   def soins; end
 
   def vosquestions; end
+
+  def deontologie; end
 end

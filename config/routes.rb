@@ -9,4 +9,5 @@ Rails.application.routes.draw do
   get 'soins-magnetiseur-marseille', to: 'pages#soins'
   get 'vos-questions', to: 'pages#vosquestions'
   get 'magnetiseur-marseille', to: 'pages#whoiam'
+  get 'deontologie', to: 'pages#deontologie'
 end
