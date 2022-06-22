@@ -1,18 +1,29 @@
 <section class="mtl"></section>
 
   <h1>Mentions Légales</h1>
+<p class="myP">
+    Le Propriétaire du Site est : <%= link_to 'Christophe JULLIEN', magnetiseur_marseille_path %>
+    <br><br>Statut du propriétaire : Indépendant - Profession libérale
+   <br> Adresse : 1 Rue André Isaia, bâtiment F, 13013 Marseille
+    <br>Tél : 06 19 94 07 24
+   <br> N° SIRET :
+    <br>N° Immatriculation :
+    <br>Préfet de région : Provence-Alpes-Côte d’Azur
+   <br> Numéro TVA intracommunautaire : Non soumis à la T.V.A.
+</p>
 
+<p class="myP">
+  L’Hébergeur du site est : O2Switch – 2 rue Kellermann – 59100 Roubaix – France
+  <br>Le responsable de la publication est une personne physique
+  <br><br>L’éditeur a ouvert ce site accessible par l’adresse
+  <%= link_to 'www.soins-magnetiseur-marseille.fr', root_path %>
+  pour l’information personnelle de ses utilisateurs.
+</p>
 
   <h2>Editeur</h2>
-    <p class="myP">Vous êtes actuellement connecté au site internet de l'association.
-
-    Responsable de la publication : Christophe JULLIEN
-
-    Parc de la Mongranne
-    Bâtiment F
-    1 rue André Isaia
-    13013 Marseille
-
+    <p class="myP">Vous êtes actuellement connecté au site internet de <%= link_to 'www.soins-magnetiseur-marseille.fr', root_path %>
+    <br><br>
+    Responsable de la publication : <%= link_to 'Christophe JULLIEN', magnetiseur_marseille_path %>
    </p>
 
   <h2>Mentions légales</h2>
@@ -20,20 +31,20 @@
     qui vous concernent (art. 34 de la loi "Informatique et Libertés" du 6 janvier 1978). </p>
 
   <h2>Droits d'auteur</h2>
-    <p class="myP">Les vidéos, photos, textes et logos contenus sur le site web de soin-magnétiseur-marseille sont protégés par des droits
-    de propriété    intellectuelle détenus par Christophe JULLIEN et ses ayants droits. Les logiciels et applicatifs sont protégées par
+    <p class="myP">Les vidéos, photos, textes et logos contenus sur le site web de <%= link_to 'www.soins-magnetiseur-marseille.fr', root_path %> sont protégés par des droits
+    de propriété intellectuelle détenus par <%= link_to 'Christophe JULLIEN', magnetiseur_marseille_path %> et ses ayants droits. Les logiciels et applicatifs sont protégées par
     des droits de propriété intellectuelle détenus par des tiers.
 
     Leur utilisation est soumise à autorisation et exclusivement réservé à un usage de communication et publicité concernant
     soin-magnétiseur-marseille, sa marque, ses services et ses produits.
-
+<br><br>
     Toute autre utilisation, transmission, rediffusion ou reproduction de ces photos, textes, logos et applications pour un objet autre
     que celui décrit auparavant, y compris sur un autre site web sans un accord écrit, express et préalable de soin-magnétiseur-marseille est
     strictement prohibée.
 
     Toute reproduction (transfert sur un autre support) ou utilisation de données du site web de soin-magnétiseur-marseille est exclusivement
     limitée à l'usage personnel et privé des utilisateurs du réseau internet, à l'exclusion de toute diffusion notamment à usage commercial.
-
+<br><br>
     Toute reproduction ou utilisation, même à des fins privées, de la totalité ou d'une partie substantielle des données du site web de
     soin-magnétiseur-marseille est strictement interdite et susceptible de poursuites conformément aux articles L 343-1 et suivant du Code de la
     Propriété Intellectuelle, aux règlements nationaux et aux conventions internationales en vigueur.
@@ -46,7 +57,7 @@
     Certaines parties du site pourraient installer un « cookie » sur votre ordinateur. Un cookie ne nous permet pas de vous identifier.
     De manière générale, il enregistre des informations relatives à la navigation de votre ordinateur sur notre site
     (les pages que vous avez consultées, la date et l'heure de la consultation, etc..) que nous pourrons lire lors de vos visites ultérieures.
-    Ainsi, vous n'aurez peut-être pas besoin de remplir à nouveau certains formulaires ou nous pourrons mieux orienter votre navigation.
+    <br>Ainsi, vous n'aurez peut-être pas besoin de remplir à nouveau certains formulaires ou nous pourrons mieux orienter votre navigation.
     La durée de conservation de ces informations dans votre ordinateur est variable et peut aller jusqu'à un an.
 
-    Vous avez la possibilité de paramétrer votre navigateur pour vous opposer à l'enregistrement de « cookies »</p>
+    Vous avez la possibilité de paramétrer votre navigateur pour vous opposer à l'enregistrement de « <%= link_to 'cookies', cookies_path %> »</p>
