@@ -29,7 +29,7 @@ body {
 
 .nav {
   width: 100%;
-  height: 65px;
+  height: 81px;
   position: fixed;
   line-height: 108px;
   //text-align: center;
@@ -41,6 +41,13 @@ body {
   height: auto;
   padding-left: 3rem;
   font-family: 'Tangerine', cursive;
+}
+.nav div.logo p{
+  margin-top: -75px;
+ // margin-bottom: 0px;
+  padding-left: 0px;
+ // padding-right: 0px;
+  padding-top: 0px;
 }
 
 .nav div.logo a {
@@ -431,7 +438,18 @@ body {
   }
 }
 ///////
+
 .footer {
+  margin-bottom: -16px;
+  margin-top: 65px;
+  text-align: center;
+  background-color: #8000ff7d;
+  p {
+    font-size: 13px;
+  }
+}
+
+.footer-2 {
   text-align: center;
   padding-top: 11px;
   padding-bottom: 11px;

@@ -39,12 +39,13 @@
 
             <div class="logo">
                 <%= link_to 'Christophe, magnétiseur', magnetiseur_marseille_path %>
+                <p class="logo">06 19 94 07 24</p>
             </div>
             <div id="mainListDiv" class="main_list">
                 <ul class="navlinks">
                     <li><%= link_to 'Accueil', root_path %></li>
                     <li><%= link_to 'Prestations', soins_magnetiseur_marseille_path %></li>
-                    <li><%= link_to 'Contact', contact_magnetiseur_path %></li>
+                    <li><%= link_to 'Me Contacter', contact_magnetiseur_path %></li>
                 </ul>
             </div>
             <span class="navTrigger">
@@ -56,8 +57,11 @@
 </nav>
  <%= yield %>
 
-  <div class="footer">
-    <h3><%= link_to 'Mention Légale', mentions_legales_path %> | <%= link_to 'CGV', cgv_path %> | <%= link_to 'Cookies', cookies_path %>
+<div class="footer">
+<p>Site web proluslsé par <%= link_to 'Christophe JULLIEN', magnetiseur_marseille_path %></p>
+</div>
+  <div class="footer-2">
+    <h3><%= link_to 'Mention Légale', mentions_legales_path %> | <%# <%= link_to 'CGV', cgv_path %> | <%= link_to 'Cookies', cookies_path %>
     | <%= link_to 'Contact', contact_magnetiseur_path %> | <%= link_to 'Témoignages', temoignage_path %>
     | <%= link_to 'Vos questions', vos_questions_path %></h3>
   </div>
