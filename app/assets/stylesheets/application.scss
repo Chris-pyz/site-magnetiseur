@@ -8,6 +8,7 @@
 @import "cookies";
 @import "deontologie";
 @import "cgv";
+@import "mtl";
 ///////////////////////////////////////////
 
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
@@ -433,10 +434,17 @@ body {
 @media all and (max-width:700px) {
   .myP {
     padding: 4%;
-    font-size: 20px;
-
+    font-size: 15px;
+  }
+  .coordo {img {
+    height: 100px;
   }
 }
+  .mentions h2 {
+    font-size: 30px;
+  }
+}
+
 ///////
 
 .footer {
