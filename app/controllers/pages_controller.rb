@@ -13,6 +13,8 @@ class PagesController < ApplicationController
 
   def temoignage; end
 
+  def votremoignage; end
+
   def soins; end
 
   def vosquestions; end
