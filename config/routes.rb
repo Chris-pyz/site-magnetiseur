@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
   root to: 'pages#accueil'
   get 'cgv', to: 'pages#cgv'
-  get 'contact-magnetiseur', to: 'pages#contact'
+  get 'le-cabinet-magnetiseur', to: 'pages#lecabinet'
   get 'cookies', to: 'pages#cookies'
   get 'mentions-legales', to: 'pages#mentionslegales'
   get 'temoignage', to: 'pages#temoignage'

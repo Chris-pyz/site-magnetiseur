@@ -45,7 +45,7 @@
                 <ul class="navlinks">
                     <li><%= link_to 'Accueil', root_path %></li>
                     <li><%= link_to 'Prestations', soins_magnetiseur_marseille_path %></li>
-                    <li><%= link_to 'Me Contacter', contact_magnetiseur_path %></li>
+                    <li><%= link_to 'Le Cabinet', le_cabinet_magnetiseur_path %></li>
                 </ul>
             </div>
             <span class="navTrigger">
@@ -55,16 +55,22 @@
             </span>
         </div>
 </nav>
+
  <%= yield %>
 
-<div class="footer">
-<p>Site web propulsé et conçu par <%= link_to 'Christophe JULLIEN', magnetiseur_marseille_path %></p>
-</div>
-  <div class="footer-2">
-    <h3><%= link_to 'Mention Légale', mentions_legales_path %> | <%# <%= link_to 'CGV', cgv_path %>  <%# <%= link_to 'Cookies', cookies_path %>
-         <%= link_to 'Contact', contact_magnetiseur_path %> | <%= link_to 'Témoignages', temoignage_path %>
-    | <%= link_to 'Vos questions', vos_questions_path %></h3>
+
+<div class="pied">
+  <div class="footer">
+    <p>Site web propulsé et conçu par <%= link_to 'Christophe JULLIEN', magnetiseur_marseille_path %></p>
   </div>
+  <div class="footer-2">
+      <h3><%= link_to 'Mention Légale', mentions_legales_path %> | <%# <%= link_to 'CGV', cgv_path %>  <%# <%= link_to 'Cookies', cookies_path %>
+          <%= link_to 'Le cabinet', le_cabinet_magnetiseur_path %> | <%= link_to 'Témoignages', temoignage_path %>
+      |   <%= link_to 'Vos questions', vos_questions_path %></h3>
+  </div>
+</div>
+
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script>

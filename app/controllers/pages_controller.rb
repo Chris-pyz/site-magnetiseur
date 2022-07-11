@@ -5,7 +5,7 @@ class PagesController < ApplicationController
 
   def cgv; end
 
-  def contact; end
+  def lecabinet; end
 
   def cookies; end
 
