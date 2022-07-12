@@ -3,8 +3,16 @@
   width: 90%;
   p {
     font-family: 'Merienda', cursive;
-    font-size: 15px;
-
+    font-size: 20px;
+  }
+  h1 {
+    color: #ae00fd
+  }
+  h2 {
+    font-size: 35px;
+  }
+  .myP {
+    font-size: 17px;
   }
 }
 
@@ -28,13 +36,17 @@
   margin-top: 50px;
   margin-bottom: 16px;
   transition: 0.3s;
+  border-radius: 15px;
+    p {
+        font-family: 'Merienda', cursive;
+        font-size: 15px;
+
+      }
 }
 
 .soincard:hover {
   box-shadow: 0 10px 30px;
-  border-radius: 15px;
   //transform: translate(15px);
-
 }
 
 #imgcab, #imgdist, #imglieu, #imggs {

@@ -45,11 +45,12 @@ body {
   padding-left: 3rem;
   font-family: 'Tangerine', cursive;
 }
-.nav div.logo p{
-  margin-top: -75px;
-  padding-left: 0px;
-  padding-top: 0px;
-}
+
+.nav div.logo img {
+    height: 50px;
+    display: flex;
+    margin-top: -42px;
+ }
 
 .nav div.logo a {
   text-decoration: none;
@@ -118,6 +119,7 @@ body {
 .li {
   display: flex;
   justify-content: center;
+  font-family: 'Merienda', cursive;
 }
 
 .navTrigger {
