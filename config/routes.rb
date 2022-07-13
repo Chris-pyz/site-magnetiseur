@@ -5,10 +5,10 @@ Rails.application.routes.draw do
   get 'le-cabinet-magnetiseur', to: 'pages#lecabinet'
   get 'cookies', to: 'pages#cookies'
   get 'mentions-legales', to: 'pages#mentionslegales'
-  get 'temoignage', to: 'pages#temoignage'
   get 'soins-magnetiseur-marseille', to: 'pages#soins'
   get 'vos-questions', to: 'pages#vosquestions'
   get 'magnetiseur-marseille', to: 'pages#whoiam'
   get 'deontologie', to: 'pages#deontologie'
-  get 'votre-temoignage', to: 'pages#votremoignage'
+  get 'votre-temoignage', to: 'temoignages#votremoignage'
+  get 'temoignage', to: 'temoignages#temoignage'
 end
