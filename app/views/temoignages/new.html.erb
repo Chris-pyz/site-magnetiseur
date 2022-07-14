@@ -1,0 +1,21 @@
+<section class="votretemoignage"></section>
+
+<div class='formulaire'>
+  <%= simple_form_for(@temoignage) do |f| %>
+    <%= f.text_field :prenom, placeholder:"Prénom" %> <br>
+    <%= f.text_field :nom, placeholder:"Nom" %> <br>
+    <%= f.text_field :email, placeholder:"Email" %> <br>
+    <%= f.label :commentaires %>
+    <%= f.text_field :commentaires %>
+    <div class="entrer">
+      <%= f.submit "Envoyer"%>
+    </div>
+  <% end %>
+</div>
+
+<div class="pied" style="display: none;">
+
+<script>
+  document.querySelector(".navTrigger").style.display = 'none';
+  document.querySelector(".navlinks").style.display = 'none';
+</script>
