@@ -10,5 +10,7 @@ Rails.application.routes.draw do
   get 'magnetiseur-marseille', to: 'pages#whoiam'
   get 'deontologie', to: 'pages#deontologie'
   get 'votre-temoignage', to: 'temoignages#votremoignage'
-  get 'temoignage', to: 'temoignages#temoignage'
+  # get 'temoignage', to: 'temoignages#temoignage'
+
+  get 'temoignages', to: 'temoignages#index'
 end
