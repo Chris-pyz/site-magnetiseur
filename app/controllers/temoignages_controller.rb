@@ -10,7 +10,7 @@ class TemoignagesController < ApplicationController
   def create
     @temoignage = Temoignage.new(temoignage_params)
     @temoignage.save
-    redirect_to temoignages_path(@temoignage)
+    redirect_to temoignages_path(@temoignage), notice: 'Votre expérience est partagée, merci !'
   end
 
   private

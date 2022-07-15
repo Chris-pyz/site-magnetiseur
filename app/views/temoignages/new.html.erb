@@ -1,16 +1,24 @@
 <section class="votretemoignage"></section>
 
 <div class='formulaire'>
-  <%= simple_form_for(@temoignage) do |f| %>
-    <%= f.text_field :prenom, placeholder:"Prénom" %> <br>
-    <%= f.text_field :nom, placeholder:"Nom" %> <br>
-    <%= f.text_field :email, placeholder:"Email" %> <br>
-    <%= f.label :commentaires %>
-    <%= f.text_field :commentaires %>
-    <div class="entrer">
-      <%= f.submit "Envoyer"%>
+  <p>Seul votre prénom et votre témoignage apparaîtront et seule la première lettre de votre nom sera affichée. </p>
+    <div class="captcha">
     </div>
-  <% end %>
+
+      <%= simple_form_for(@temoignage) do |f| %>
+        <p>
+          <%= f.text_field :prenom, placeholder:"Entrez votre prénom" %> <br>
+          <%= f.text_field :nom, placeholder:"Entrez votre nom" %> <br>
+          <%= f.text_field :email, placeholder:"Entrez votre email" %> <br>
+          <%= f.text_area :commentaires, placeholder:"Partagez votre expérience ici", :input_html => {:rows => 15}   %>
+        </p> 130 caractères minimum
+
+        <div class="entrer">
+          <%= f.submit "Envoyer"%>
+        </div>
+
+      <% end %>
+
 </div>
 
 <div class="pied" style="display: none;">
