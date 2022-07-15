@@ -1,0 +1,19 @@
+<section class="temoignage"></section>
+
+<div class="tmg">
+  <h1>Partagez-nous votre témoignage</h1>
+  <div id="bouton">
+    <h2>Partagez votre expérience</h2>
+  </div>
+  <br>
+  <hr>
+    <% @temoignages.each do |t| %>
+    <p class="myP">
+      <%= t.prenom.capitalize %>, <%= t.nom.capitalize.first %>.
+      <br>
+      <br>
+      <%= t.commentaires %>
+    </p>
+    <hr>
+    <% end %>
+</div>
