@@ -7,13 +7,17 @@
 
       <%= simple_form_for(@temoignage) do |f| %>
         <p>
-          <%= f.text_field :prenom, placeholder:"Entrez votre prénom" %> <br>
-          <%= f.text_field :nom, placeholder:"Entrez votre nom" %> <br>
-          <%= f.text_field :email, placeholder:"Entrez votre email" %> <br>
-          <%= f.text_area :commentaires, placeholder:"Partagez votre expérience ici", :input_html => {:rows => 15}   %>
-        </p> 130 caractères minimum
+          <%= f.text_field :prenom, placeholder:"Entrez votre prénom" %>* <br>
+          <%= f.text_field :nom, placeholder:"Entrez votre nom" %>* <br>
+          <%= f.text_field :email, placeholder:"Entrez votre email" %>* <br>
+          <%= f.text_area :commentaires, placeholder:"Partagez votre expérience ici", :input_html => {:rows => 15} %>*
+        </p>
+        <h3 style="text-align: center">
+          *Champs obligatoires <br>
+          130 caractères minimum
+        </h3>
 
-        <div class="entrer">
+        <div class="envoyer">
           <%= f.submit "Envoyer"%>
         </div>
 
