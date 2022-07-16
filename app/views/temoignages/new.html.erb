@@ -1,23 +1,24 @@
 <section class="votretemoignage"></section>
 
 <div class='formulaire'>
-  <p>Seul votre prénom et votre témoignage apparaîtront et seule la première lettre de votre nom sera affichée. </p>
+  <p style="font-size: 14px">Seuls votre prénom et votre témoignage apparaîtront clairement, et seule la première lettre de votre nom sera affichée. </p>
     <div class="captcha">
     </div>
-
+    <h3 style="text-align: center">
+      Tous les champs sont obligatoires
+      </h3>
       <%= simple_form_for(@temoignage) do |f| %>
         <p>
-          <%= f.text_field :prenom, placeholder:"Entrez votre prénom" %>* <br>
-          <%= f.text_field :nom, placeholder:"Entrez votre nom" %>* <br>
-          <%= f.text_field :email, placeholder:"Entrez votre email" %>* <br>
-          <%= f.text_area :commentaires, placeholder:"Partagez votre expérience ici", :input_html => {:rows => 15} %>*
+          <%= f.text_field :prenom, placeholder:"Entrez votre prénom" %> <br>
+          <%= f.text_field :nom, placeholder:"Entrez votre nom" %> <br>
+          <%= f.text_field :email, placeholder:"Entrez votre email" %> <br>
+          <%= f.text_area :commentaires, placeholder:"Partagez votre expérience ici", :input_html => {:rows => 15} %>
         </p>
         <h3 style="text-align: center">
-          *Champs obligatoires <br>
           130 caractères minimum
         </h3>
 
-        <div class="envoyer">
+        <div id="envoyer">
           <%= f.submit "Envoyer"%>
         </div>
 
@@ -26,8 +27,7 @@
 </div>
 
 <div class="pied" style="display: none;">
-
 <script>
-  document.querySelector(".navTrigger").style.display = 'none';
-  document.querySelector(".navlinks").style.display = 'none';
+      document.querySelector(".navTrigger").style.display = 'none';
+      document.querySelector(".navlinks").style.display = 'none';
 </script>

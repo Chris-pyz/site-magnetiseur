@@ -1,9 +1,19 @@
 #temoignage_commentaires {
   height: 100px;
   width: 203px;
+}
+
+#envoyer {
+  padding-top: 0px;
   text-align: center;
 }
-.envoyer {
-  padding-top: 0px;
+
+#temoignage_prenom, #temoignage_nom, #temoignage_email, #temoignage_commentaires {
+  border-radius: 10px;
+  margin-bottom: 3px;
+  color: #ae00fd;
+  text-align: center;
+}
+#new_temoignage {
   text-align: center;
 }

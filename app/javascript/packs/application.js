@@ -10,7 +10,7 @@ require("channels")
 
 import { pageAccueil } from '../components/pageAccueil';
 import { temoigne } from '../components/temoigne';
-import { captcha } from '../components/temoigne';
+import { envoyer } from '../components/temoigne';
 // Uncomment to copy all static images under ../images to the output folder and reference
 // them with the image_pack_tag helper in views (e.g <%= image_pack_tag 'rails.png' %>)
 // or the `imagePath` JavaScript helper below.
@@ -20,5 +20,5 @@ import { captcha } from '../components/temoigne';
 document.addEventListener('turbolinks:load', () => {
   pageAccueil();
   temoigne();
-  captcha();
+  envoyer();
 });

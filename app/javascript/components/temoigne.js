@@ -1,19 +1,24 @@
+// On ouvre un page pour saisir son commentaire
 const temoigne = () => {
   const bton = document.querySelector("#bouton");
   if (bton) {
     bton.addEventListener("click", event => {
-      const newWin = window.open("temoignages/new", "votre temoignage", "width=355,height=600");
+      window.open("temoignages/new", "votre temoignage", "width=355,height=600");
     });
   }
 }
 export { temoigne };
 
-/* const captcha = () => {
-  const invalue = document.querySelector("#nombre").value;
-  if (invalue) {
-    invalue.addEventListener("click", event => {
-      const newWin = window.open("temoignages/new", "votre temoignage", "width=355,height=600");
+// Ferme la fenêtre commentaire et suggère le rafraîssissement de la page témoignages/new
+const envoyer = () => {
+  const clicke = document.querySelector("#envoyer");
+  if (clicke) {
+    clicke.addEventListener("click", event => {
+      setTimeout(() => { window.close("temoignages") }, 100);
+      alert("Rafraîchissez la page -témoignages- pour lire le votre");
+
     });
+
   }
 }
-export { captcha }; */
+export { envoyer };
